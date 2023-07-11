@@ -1,0 +1,326 @@
+.face{
+    height: 130px;
+    width: 150px;
+    background-color: palevioletred;
+    right: 100px;
+    margin-top: 100px;
+    margin-left: 550px;
+    border-radius: 500px 500px 0px 0px;
+}
+.reye{
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    margin-top: -40px;
+    margin-left: 570px;
+    border-radius: 100%;
+}
+.leye{
+    height: 15px;
+    width: 15px;
+    background-color:black;
+    margin-top:-15px;
+    margin-left: 655px;
+    border-radius: 100%;
+}
+.body{
+    height: 150px;
+    width: 150px;
+    background-color: palevioletred;
+    margin-top: 35px;
+    margin-left: 550px;
+    border-radius: 0px 0px 40px 40px;
+}
+.rhand{
+    height: 100px;
+    width: 29px;
+    background-color: palevioletred;
+    margin-top: -130px;
+    margin-left: 510px;
+    border-radius: 50px 50px 50px 50px;
+}
+.lhand{
+    height: 100px;
+    width: 30px;
+    background-color: palevioletred;
+    margin-top: -102px;
+    margin-left: 710px;
+    border-radius: 50px 50px 50px 50px;
+}
+.rleg{
+    height: 120px;
+    width: 28px;
+    background-color: palevioletred;
+    margin-top: -15px;
+    margin-left: 580px;
+    border-radius: 50px 50px 50px 50px;
+}
+.lleg{
+    height: 102px;
+    width: 28px;
+    background-color: palevioletred;
+    margin-top: -103px;
+    margin-left: 640px;
+    border-radius: 50px 50px 50px 50px;   
+}
+.container :hover.lleg,.rleg,.rhand,.lhand,.face,.body,.reye,.leye{
+    transform: scale(1);
+    animation: face 2s infinite;
+    transform: rotate(-360deg);
+    transform-origin: top;
+}
+@keyframes lleg{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+        /* background-color: aquamarine; */
+    } 
+    25%{
+        transform: rotate(45deg);
+        transform-origin: top;
+        /* background-color: blue; */
+    }
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+        /* background-color:black; */
+    } 
+    75%{
+        transform: rotate(75deg);
+        transform-origin: top;
+        /* background-color: violet; */
+    } 
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+        /* background-color: pink; */
+    } 
+}
+
+
+.rleg:hover{
+    background-color: blue;
+    transform: scale(1);
+    animation: rleg 2s infinite;
+    transform: rotate(60deg);
+    transform-origin: top;
+} 
+@keyframes rleg{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+        /* background-color: red; */
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+        /* background-color: turquoise; */
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+        /* background-color: gray; */
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+        /* background-color: greenyellow; */
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+        /* background-color: bisque; */
+    } 
+}
+
+ 
+.rhand:hover{
+    background-color: blueviolet;
+    transform: scale(1);
+    transform-origin: top;
+    animation: rhand 2s infinite;
+    transform: rotate(60deg);
+} 
+@keyframes rhand{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+        /* background-color: darkcyan; */
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+        /* background-color: silver; */
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+        /* background-color: royalblue; */
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+        /* background-color: snow; */
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+    } 
+}
+
+
+.lhand:hover{
+    background-color: black;
+    transform: scale(1);
+    transform: rotate(60deg);
+    animation: lhand 2s infinite;
+    transform-origin: top;
+}
+@keyframes lhand{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+        background-color: #8A62A4;
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+        background-color:#C72553;
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+        background-color: #FB9C7C;
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+        background-color: #5B6A7A;
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+        background-color: #4D7591;
+    } 
+}
+
+
+.reye:hover{
+    background-color:black;
+    transform: scale(1);
+    
+}
+
+.leye:hover{
+    background-color:black;
+    transform: scale(1);
+} */
+
+.body:hover{
+    background-color:burlywood ;
+    transform: scale(1);
+    transform: rotate(60deg);
+    animation: body 2s infinite;
+}
+
+.face:hover{
+    background-color: bisque;
+    transform: scale(1);
+    animation: face 2s infinite;
+    transform: rotate(60deg);
+
+}
+
+@keyframes face{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+    } 
+}
+
+@keyframes body{
+    0%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    } 
+    50%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    } 
+    150%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    } 
+    200%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    } 
+}
+
+@keyframes leye{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+    } 
+}
+
+@keyframes reye{
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    } 
+    50%{
+        transform: rotate(50deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(100deg);
+        transform-origin: top;
+    } 
+    150%{
+        transform: rotate(150deg);
+        transform-origin: top;
+    } 
+    200%{
+        transform: rotate(200deg);
+        transform-origin: top;
+    } 
+}
+
+
